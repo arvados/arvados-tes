@@ -1,0 +1,17 @@
+{
+  "name": "",
+  "description": "",
+  "inputs": [],
+  "outputs": [],
+  "resources": {
+    "cpu_cores": 1,
+    "preemptible": false,
+    "ram_gb": 1,
+    "disk_gb": 1,
+    "zones": [],
+    "backend_parameters": {},
+    "backend_parameters_strict": false
+  },
+  "executors": [],
+  "volumes": []
+}
