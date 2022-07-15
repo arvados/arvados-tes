@@ -6,4 +6,4 @@ def main():
 
     app.add_api('task_execution_service.openapi.yaml', resolver=RelativeResolver('arvados_tes.handlers'))
 
-    app.run(port=5000)
+    app.run(port=5000, debug=True)
